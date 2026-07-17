@@ -1,0 +1,239 @@
+{
+  "actual_counts": {
+    "agent_rows": 540,
+    "daily_rows": 270,
+    "run_rows": 54
+  },
+  "conditions": [
+    {
+      "calibration_ratio": 0.5,
+      "condition_id": "rho_0p5_liq_0_market_0_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 0.5,
+      "condition_id": "rho_0p5_liq_0_market_1_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 0.5,
+      "condition_id": "rho_0p5_liq_0_market_2_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 0.5,
+      "condition_id": "rho_0p5_liq_1_market_0_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 0.5,
+      "condition_id": "rho_0p5_liq_1_market_1_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 0.5,
+      "condition_id": "rho_0p5_liq_1_market_2_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 0.5,
+      "condition_id": "rho_0p5_liq_2_market_0_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 0.5,
+      "condition_id": "rho_0p5_liq_2_market_1_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 0.5,
+      "condition_id": "rho_0p5_liq_2_market_2_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_0_market_0_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_0_market_1_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_0_market_2_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_1_market_0_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_1_market_1_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_1_market_2_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_2_market_0_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_2_market_1_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_2_market_2_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 2.0,
+      "condition_id": "rho_2p0_liq_0_market_0_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 2.0,
+      "condition_id": "rho_2p0_liq_0_market_1_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 2.0,
+      "condition_id": "rho_2p0_liq_0_market_2_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 2.0,
+      "condition_id": "rho_2p0_liq_1_market_0_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 2.0,
+      "condition_id": "rho_2p0_liq_1_market_1_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 2.0,
+      "condition_id": "rho_2p0_liq_1_market_2_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 2.0,
+      "condition_id": "rho_2p0_liq_2_market_0_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 2.0,
+      "condition_id": "rho_2p0_liq_2_market_1_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 2.0,
+      "condition_id": "rho_2p0_liq_2_market_2_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    }
+  ],
+  "exit_events": 0,
+  "expected_counts": {
+    "agent_rows": 540,
+    "conditions": 27,
+    "daily_rows": 270,
+    "run_rows": 54,
+    "runs": 54
+  },
+  "experiment_id": "frl-v2-smoke",
+  "experiment_namespace": "frl-v2-confirmatory-smoke",
+  "files": {
+    "agent_survival.csv": "02AA65B494923921C2DA6569C8D6978FC38347C6F9E95DFF8D7FD58698F2E8E2",
+    "run_daily.csv": "C32AFAFC5E3B02A0756048D25329F1DC0D842EE9F22CEAE5735A972849F8E370",
+    "run_summary.csv": "D11C64139C6BA2B3297CCE0A579EA9F48F507EDF2C4D29016750919C4CF02710",
+    "seed_manifest.json": "49DBA5C63E40ECD801BA433229B51F0A9B752E5A2B13CADA510E7595E81308EC"
+  },
+  "manifest_version": "1.0",
+  "model_config": {
+    "cash_share_high": 0.4,
+    "cash_share_low": 0.2,
+    "exit_tolerance": 1e-10,
+    "horizon": 5,
+    "initial_equity": 1.0,
+    "leverage_high": 2.4,
+    "leverage_low": 1.6,
+    "liquidity_noise_sigma": 0.2,
+    "market_event_probability": 0.1,
+    "maximum_market_loss_fraction": 0.6,
+    "model_version": "frl-v2.0",
+    "payment_multiplier_high": 1.25,
+    "payment_multiplier_low": 0.75,
+    "population": 10,
+    "price_impact_lambda": 0.15,
+    "reference_cash_share": 0.3,
+    "reference_leverage": 2.0
+  },
+  "replication_ids": [
+    "smoke-0001",
+    "smoke-0002"
+  ],
+  "stress_budget": 0.03
+}

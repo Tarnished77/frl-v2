@@ -1,0 +1,7 @@
+calibration_ratio,outcome,estimand,estimate,ci_low,ci_high,replication_blocks,evidence
+1,exit_rate,liquidity_effect,0.485833333333,0.479166666667,0.491666666667,200,not_applicable
+1,exit_rate,market_effect,0.120808333333,0.108524166667,0.134729791667,200,not_applicable
+1,exit_rate,liquidity_minus_market,0.365025,0.345894791667,0.38156875,200,liquidity_larger
+1,rmst_days,liquidity_effect,5.31591666667,5.22844708333,5.40452520833,200,not_applicable
+1,rmst_days,market_effect,1.54754166667,1.324254375,1.77763541667,200,not_applicable
+1,rmst_days,liquidity_minus_market,3.768375,3.60117083333,3.92381916667,200,liquidity_larger

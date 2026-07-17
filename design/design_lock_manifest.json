@@ -1,0 +1,20 @@
+{
+  "experiment_namespace": "frl-v2-confirmatory",
+  "files": {
+    "formal_seed_manifest.json": "94892BAF415ED26D2F8AB7822E4253E7EBB3317A3DEAC73F2379A2A813B34739",
+    "locked_design.json": "F196A345D24E78CDF033D3D8C7B714D5094DE97AFE4BE9B4F38A31C41CD2A5D6",
+    "pilot_results.csv": "CE1C1F8E91AB5C5DD789588652DA13681C29B470FA5EC96C8C1D3C7D3763C262"
+  },
+  "manifest_version": "1.0",
+  "pilot_source_files": {
+    "locked_design.json": "F196A345D24E78CDF033D3D8C7B714D5094DE97AFE4BE9B4F38A31C41CD2A5D6",
+    "pilot_results.csv": "CE1C1F8E91AB5C5DD789588652DA13681C29B470FA5EC96C8C1D3C7D3763C262"
+  },
+  "replication_groups": {
+    "finite_size": 50,
+    "primary_and_homogeneous": 200
+  },
+  "selected_stress_budget": 0.03,
+  "source_commit": "de7ed51f9e0e91d2ffed3ebe2224b18f30ac98c7",
+  "status": "locked_before_confirmatory outcomes were generated"
+}

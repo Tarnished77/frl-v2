@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-07-17T00:00:00Z",
+  "excluded_material": [
+    "manuscript and supplementary source or PDFs",
+    "cover letter and highlights",
+    "author contact details and submission records",
+    "PowerPoint source and other editable paper artwork",
+    "AI conversations, prompts, logs, caches, local paths, secrets, and environment files",
+    "formal raw CSV data, which are packaged separately"
+  ],
+  "formal_data_included": false,
+  "legacy_game_backed_data_included": false,
+  "licenses": {
+    "code": "MIT",
+    "generated_data_and_figures": "CC-BY-4.0"
+  },
+  "manuscript_or_submission_material_included": false,
+  "package_kind": "public-code-repository",
+  "package_version": "2.0",
+  "payload_bytes_before_integrity_records": 2127239,
+  "payload_files_before_integrity_records": 74,
+  "primary_sample_reference": {
+    "agents": 540000,
+    "conditions": 27,
+    "events": 253230,
+    "horizon_days": 30,
+    "replication_blocks_per_cell": 200,
+    "runs": 5400
+  },
+  "python_requirement": ">=3.12,<3.14",
+  "sample_data": {
+    "agent_rows": 540,
+    "daily_rows": 270,
+    "run_rows": 54
+  },
+  "sensitivity_sample_reference": {
+    "finite_200": {
+      "agents": 90000,
+      "events": 42518,
+      "runs": 450
+    },
+    "finite_50": {
+      "agents": 22500,
+      "events": 10592,
+      "runs": 450
+    },
+    "homogeneous": {
+      "agents": 180000,
+      "events": 78331,
+      "runs": 1800
+    }
+  },
+  "source_commit": "8a5ff06c3767a4ec812069dab32cbca853bd7612",
+  "title": "Liquidity Pressure, Market Risk, and Investor Exit: An Agent-Based Calibration Analysis"
+}

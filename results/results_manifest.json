@@ -1,0 +1,88 @@
+{
+  "analysis_namespace": "frl-v2-confirmatory",
+  "analysis_source_commit": "33b20ce9cb5bdd8bcb19acff412d04ae74310aa7",
+  "calibration_or_estimand_dependent": true,
+  "cell_saturation": {
+    "mean_exit_rate_at_least_0_95": 5,
+    "mean_exit_rate_at_most_0_05": 8
+  },
+  "channel_comparison_evidence": {
+    "exit_rate": [
+      "liquidity_larger",
+      "liquidity_larger",
+      "liquidity_larger"
+    ],
+    "rmst_days": [
+      "uncertain",
+      "liquidity_larger",
+      "liquidity_larger"
+    ]
+  },
+  "cloglog_scope": "Interior stressed cells only; structural no-stress cells have zero events and were excluded to avoid separation. Day baseline uses a five-degree-of-freedom B-spline; standard errors cluster by block.",
+  "files": {
+    "block_channel_effects.csv": "ADBF981D62DC93369BC4EF86A8511CA7C0672BF491198AAD0723F076F00B2317",
+    "cell_summary.csv": "2672277C2901F1894EC5934A504FBFAA3B39ADBD65DADF308E012ED291FCC124",
+    "channel_contrasts.csv": "2FAD769574581E3D0C04876D3A6DA8A424665E4C85E3F2C8E30EB0825041CA98",
+    "cloglog_coefficients.csv": "E263BA6E37D2565C60A34403E5B9C5ED58BB601ACCFE8470E5DB10610F4490FA",
+    "cloglog_diagnostics.csv": "C834F6800F4046BF4A3F2B790BB14F3E9361A2BDC989980CAC225022709E13FD",
+    "daily_survival.csv": "44FAD8428808AFCF0C3E1E8A1A0F2125CBD409D2DC4026E11E8C140D5723F71B",
+    "exit_reason_summary.csv": "71BF9AEB16EF9DF9A220C906699FA0CCFAF07451531B1EEFF2CE2096C25476D6",
+    "finite_size_diagnostic.csv": "FD47A4B36683997225AEBC3886611597664804600634059B4767ED1DD9ED1FFD",
+    "homogeneous_channel_contrasts.csv": "3C285F90EB7A03A1C30C7ABAEFC41C81B53FBD005BCB06A69F195785593613C5",
+    "homogeneous_sensitivity.csv": "9D5643BDFBF959255C723460940FFFDAEA034D2735E7E90A1FCC1D9C9438C5F1"
+  },
+  "finite_size_diagnostic_passed": true,
+  "homogeneous_channel_comparison_evidence_at_rho_1": [
+    "liquidity_larger",
+    "liquidity_larger"
+  ],
+  "input_manifests": {
+    "finite_200": "CDD1A309B276861F77200D33B0098B62B2A680622D169925286A3E8B6193FB83",
+    "finite_50": "9BCF4EAA3093E53BE9C396DC1D3F9BA2845B60B4A876EF03C98153C56C2A3C9F",
+    "homogeneous": "95C027DCA24BA1049ADCA7698221D55A5D8B66594406358519E82C6C705FED9B",
+    "primary": "B4F5916552E18114C9A1905E682A80D205E49078F39052FD199A48F4989B73A6"
+  },
+  "manifest_version": "1.0",
+  "maximum_primary_contrast_ci_half_width": {
+    "exit_rate": 0.0195884375,
+    "rmst_days": 0.35279062500000014
+  },
+  "primary_estimands": {
+    "exit_risk": "day-30 exit-risk difference per one intensity step",
+    "interval": "95% percentile interval from 2000 paired replication-block bootstrap draws",
+    "rmst": "30-day RMST loss in days per one intensity step"
+  },
+  "primary_sample": {
+    "agents": 540000,
+    "conditions": 27,
+    "events": 253230,
+    "horizon_days": 30,
+    "replication_blocks_per_cell": 200,
+    "runs": 5400
+  },
+  "sensitivity_samples": {
+    "finite_200": {
+      "agents": 90000,
+      "events": 42518,
+      "runs": 450
+    },
+    "finite_50": {
+      "agents": 22500,
+      "events": 10592,
+      "runs": 450
+    },
+    "homogeneous": {
+      "agents": 180000,
+      "events": 78331,
+      "runs": 1800
+    }
+  },
+  "software": {
+    "matplotlib": "3.10.6",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "python": "3.13.9",
+    "scipy": "1.16.3",
+    "statsmodels": "0.14.5"
+  }
+}

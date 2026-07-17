@@ -1,0 +1,18 @@
+{
+  "experiment_namespace": "frl-v2-confirmatory",
+  "calibration_ratios": [0.5, 1.0, 2.0],
+  "liquidity_intensities": [0, 1, 2],
+  "market_intensities": [0, 1, 2],
+  "primary_replications": 200,
+  "homogeneous_replications": 200,
+  "finite_size_replications": 50,
+  "finite_size_populations": [50, 200],
+  "pilot_replications": 20,
+  "pilot_stress_budgets": [0.020, 0.025, 0.030, 0.035, 0.040],
+  "pilot_target_exit_rate": 0.35,
+  "pilot_acceptable_exit_rate_low": 0.20,
+  "pilot_acceptable_exit_rate_high": 0.60,
+  "finite_size_exit_risk_tolerance": 0.03,
+  "finite_size_rmst_tolerance_days": 1.0,
+  "bootstrap_replications": 2000
+}

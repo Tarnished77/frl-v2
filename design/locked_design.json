@@ -1,0 +1,95 @@
+{
+  "design_config": {
+    "bootstrap_replications": 2000,
+    "calibration_ratios": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "experiment_namespace": "frl-v2-confirmatory",
+    "finite_size_exit_risk_tolerance": 0.03,
+    "finite_size_populations": [
+      50,
+      200
+    ],
+    "finite_size_replications": 50,
+    "finite_size_rmst_tolerance_days": 1.0,
+    "homogeneous_replications": 200,
+    "liquidity_intensities": [
+      0,
+      1,
+      2
+    ],
+    "market_intensities": [
+      0,
+      1,
+      2
+    ],
+    "pilot_acceptable_exit_rate_high": 0.6,
+    "pilot_acceptable_exit_rate_low": 0.2,
+    "pilot_replications": 20,
+    "pilot_stress_budgets": [
+      0.02,
+      0.025,
+      0.03,
+      0.035,
+      0.04
+    ],
+    "pilot_target_exit_rate": 0.35,
+    "primary_replications": 200
+  },
+  "lock_version": "1.0",
+  "model_config": {
+    "cash_share_high": 0.4,
+    "cash_share_low": 0.2,
+    "exit_tolerance": 1e-10,
+    "horizon": 30,
+    "initial_equity": 1.0,
+    "leverage_high": 2.4,
+    "leverage_low": 1.6,
+    "liquidity_noise_sigma": 0.2,
+    "market_event_probability": 0.1,
+    "maximum_market_loss_fraction": 0.6,
+    "model_version": "frl-v2.0",
+    "payment_multiplier_high": 1.25,
+    "payment_multiplier_low": 0.75,
+    "population": 100,
+    "price_impact_lambda": 0.15,
+    "reference_cash_share": 0.3,
+    "reference_leverage": 2.0
+  },
+  "pilot_condition": {
+    "calibration_ratio": 1.0,
+    "liquidity_intensity": 1,
+    "market_intensity": 1,
+    "population_design": "heterogeneous"
+  },
+  "pilot_namespace": "frl-v2-confirmatory-pilot",
+  "pilot_replication_ids": [
+    "pilot-0001",
+    "pilot-0002",
+    "pilot-0003",
+    "pilot-0004",
+    "pilot-0005",
+    "pilot-0006",
+    "pilot-0007",
+    "pilot-0008",
+    "pilot-0009",
+    "pilot-0010",
+    "pilot-0011",
+    "pilot-0012",
+    "pilot-0013",
+    "pilot-0014",
+    "pilot-0015",
+    "pilot-0016",
+    "pilot-0017",
+    "pilot-0018",
+    "pilot-0019",
+    "pilot-0020"
+  ],
+  "selected_is_acceptable": true,
+  "selected_mean_exit_rate": 0.27149999999999996,
+  "selected_mean_rmst_days": 29.244999999999997,
+  "selected_stress_budget": 0.03,
+  "selection_rule": "Choose the acceptable candidate closest to the target exit rate; if none is acceptable, choose the closest candidate. Break ties toward the smaller common stress budget."
+}

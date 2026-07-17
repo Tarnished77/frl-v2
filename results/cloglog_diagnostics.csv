@@ -1,0 +1,4 @@
+calibration_ratio,scope,aggregated_run_day_rows,replication_clusters,at_risk_agent_days,exit_events,converged,deviance,liquidity_log_time_coefficient,liquidity_log_time_p_value,market_log_time_coefficient,market_log_time_p_value
+0.5,interior stressed cells (liquidity and market intensities 1 or 2),22595,200,1925005,52496,1,163922.175879,0.104906657607,0.31398828384,-2.47954041686,6.11116102933e-24
+1,interior stressed cells (liquidity and market intensities 1 or 2),22155,200,1787758,60870,1,102205.11188,-1.12487410752,2.65297785178e-08,-1.83950338297,5.21846084693e-30
+2,interior stressed cells (liquidity and market intensities 1 or 2),21392,200,1636339,67749,1,45675.6994913,-3.19428346116,6.20772878733e-49,-0.437981140373,5.4491735599e-05

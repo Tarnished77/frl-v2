@@ -1,0 +1,10 @@
+liquidity_intensity,market_intensity,heterogeneous_exit_rate,homogeneous_exit_rate,homogeneous_minus_heterogeneous_exit_rate,heterogeneous_rmst_days,homogeneous_rmst_days,homogeneous_minus_heterogeneous_rmst_days,replication_blocks
+0,0,0,0,0,30,30,0,200
+0,1,0.00065,0,-0.00065,29.9997,30,0.0003,200
+0,2,0.13265,0.085,-0.04765,29.1006,29.605,0.5044,200
+1,0,0.1701,0,-0.1701,29.4407,30,0.5593,200
+1,1,0.3426,0.1917,-0.1509,28.7454,29.37115,0.62575,200
+1,2,0.72165,0.63985,-0.0818,24.2459,24.47895,0.23305,200
+2,0,0.93585,1,0.06415,20.7649,20.52855,-0.23635,200
+2,1,0.9839,1,0.0161,19.53565,20.0216,0.48595,200
+2,2,0.99535,1,0.00465,16.86095,17.15935,0.2984,200

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper and archived software record."
+title: "Liquidity Pressure, Market Risk, and Investor Exit: An Agent-Based Calibration Analysis"
+type: software
+version: 2.0.0
+date-released: 2026-07-17
+license: MIT
+authors:
+  - family-names: Zhai
+    given-names: Shangyu
+    affiliation: Gansu University of Political Science and Law
+  - family-names: Li
+    given-names: Xu
+    affiliation: Gansu University of Political Science and Law
+  - family-names: Wang
+    given-names: Shuai
+    affiliation: Gansu University of Political Science and Law
+  - family-names: Xie
+    given-names: Penghui
+    affiliation: Gansu University of Political Science and Law
+  - family-names: Du
+    given-names: Yihao
+    affiliation: Gansu University of Political Science and Law
+  - family-names: Mo
+    given-names: Yaqi
+    affiliation: Gansu University of Political Science and Law
+  - family-names: Fu
+    given-names: Qianrong
+    affiliation: Gansu University of Political Science and Law
+  - family-names: Chen
+    given-names: Huan
+    affiliation: Gansu University of Political Science and Law
+

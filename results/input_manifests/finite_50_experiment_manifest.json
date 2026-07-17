@@ -1,0 +1,161 @@
+{
+  "actual_counts": {
+    "agent_rows": 22500,
+    "daily_rows": 13500,
+    "run_rows": 450
+  },
+  "conditions": [
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_0_market_0_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_0_market_1_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_0_market_2_heterogeneous",
+      "liquidity_intensity": 0,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_1_market_0_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_1_market_1_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_1_market_2_heterogeneous",
+      "liquidity_intensity": 1,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_2_market_0_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 0,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_2_market_1_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 1,
+      "population_design": "heterogeneous"
+    },
+    {
+      "calibration_ratio": 1.0,
+      "condition_id": "rho_1p0_liq_2_market_2_heterogeneous",
+      "liquidity_intensity": 2,
+      "market_intensity": 2,
+      "population_design": "heterogeneous"
+    }
+  ],
+  "exit_events": 10592,
+  "expected_counts": {
+    "agent_rows": 22500,
+    "conditions": 9,
+    "daily_rows": 13500,
+    "run_rows": 450,
+    "runs": 450
+  },
+  "experiment_id": "frl-v2-finite-50",
+  "experiment_namespace": "frl-v2-confirmatory",
+  "files": {
+    "agent_survival.csv": "764498D6D7BA595D36CE8347AD765B656CBC091996157FFCFB9C76DD5D071A78",
+    "run_daily.csv": "31D69A38610369CB5A28BF642FAC00BC0E52A4131EE329AA8E916B3C21A4AE3F",
+    "run_summary.csv": "9365AF17D324CA3DC46BB4B816FDA556E70D32C6A6A7CADFCE55D882A28C8C41",
+    "seed_manifest.json": "C8467178EC086D3730F79C8D1AD7B5B1201850B315B28304AC906450A75EDBD6"
+  },
+  "manifest_version": "1.0",
+  "model_config": {
+    "cash_share_high": 0.4,
+    "cash_share_low": 0.2,
+    "exit_tolerance": 1e-10,
+    "horizon": 30,
+    "initial_equity": 1.0,
+    "leverage_high": 2.4,
+    "leverage_low": 1.6,
+    "liquidity_noise_sigma": 0.2,
+    "market_event_probability": 0.1,
+    "maximum_market_loss_fraction": 0.6,
+    "model_version": "frl-v2.0",
+    "payment_multiplier_high": 1.25,
+    "payment_multiplier_low": 0.75,
+    "population": 50,
+    "price_impact_lambda": 0.15,
+    "reference_cash_share": 0.3,
+    "reference_leverage": 2.0
+  },
+  "replication_ids": [
+    "finite-size-0001",
+    "finite-size-0002",
+    "finite-size-0003",
+    "finite-size-0004",
+    "finite-size-0005",
+    "finite-size-0006",
+    "finite-size-0007",
+    "finite-size-0008",
+    "finite-size-0009",
+    "finite-size-0010",
+    "finite-size-0011",
+    "finite-size-0012",
+    "finite-size-0013",
+    "finite-size-0014",
+    "finite-size-0015",
+    "finite-size-0016",
+    "finite-size-0017",
+    "finite-size-0018",
+    "finite-size-0019",
+    "finite-size-0020",
+    "finite-size-0021",
+    "finite-size-0022",
+    "finite-size-0023",
+    "finite-size-0024",
+    "finite-size-0025",
+    "finite-size-0026",
+    "finite-size-0027",
+    "finite-size-0028",
+    "finite-size-0029",
+    "finite-size-0030",
+    "finite-size-0031",
+    "finite-size-0032",
+    "finite-size-0033",
+    "finite-size-0034",
+    "finite-size-0035",
+    "finite-size-0036",
+    "finite-size-0037",
+    "finite-size-0038",
+    "finite-size-0039",
+    "finite-size-0040",
+    "finite-size-0041",
+    "finite-size-0042",
+    "finite-size-0043",
+    "finite-size-0044",
+    "finite-size-0045",
+    "finite-size-0046",
+    "finite-size-0047",
+    "finite-size-0048",
+    "finite-size-0049",
+    "finite-size-0050"
+  ],
+  "stress_budget": 0.03
+}
