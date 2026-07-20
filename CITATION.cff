@@ -2,9 +2,12 @@ cff-version: 1.2.0
 message: "If you use this software or generated data, please cite this package."
 title: "Funding Withdrawals, Market Losses, and Fire-Sale Amplification: An Agent-Based Stress Experiment"
 type: software
-version: 3.1.0
-date-released: 2026-07-19
+version: 1.0.0
+date-released: 2026-07-20
 license: MIT
+doi: 10.5281/zenodo.21406158
+repository-code: "https://github.com/Tarnished77/frl-v2"
+url: "https://doi.org/10.5281/zenodo.21406158"
 authors:
   - family-names: Zhai
     given-names: Shangyu

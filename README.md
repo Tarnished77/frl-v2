@@ -125,6 +125,10 @@ Code is licensed under the MIT License. Generated simulation data and figures
 are licensed under CC BY 4.0. Third-party raw source observations are not
 redistributed and remain subject to their source providers' terms.
 
-No GitHub URL, Zenodo DOI, or publication DOI is assigned in this package.
-Those identifiers remain author-controlled until the repository and deposit
-are approved for release.
+## Repository and citation
+
+- Source repository: <https://github.com/Tarnished77/frl-v2>
+- Archived release: <https://doi.org/10.5281/zenodo.21406158>
+
+The Zenodo DOI identifies version 1.0.0 of this reproducibility package. The
+included `CITATION.cff` provides machine-readable citation metadata.
