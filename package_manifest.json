@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-07-19T00:00:00Z",
+  "created_utc": "2026-07-20T00:00:00Z",
   "excluded_material": [
     "main manuscript and Supplementary source or PDFs",
     "cover letter, highlights, submission notes, and author contact details",
@@ -19,10 +19,10 @@
   "manuscript_or_submission_material_included": false,
   "model_version": "3.1.0",
   "package_kind": "code-data-reproducibility-archive",
-  "package_version": "1.0",
-  "payload_bytes_before_integrity_records": 12925461,
+  "package_version": "1.0.0",
+  "payload_bytes_before_integrity_records": 12925715,
   "payload_files_before_integrity_records": 135,
-  "persistent_identifier": "not assigned; author-controlled deposit pending",
+  "persistent_identifier": "10.5281/zenodo.21406158",
   "personal_contact_information_included": false,
   "primary_design": {
     "conditions": 54,
@@ -34,7 +34,10 @@
     "run_rows": 10800
   },
   "python_requirement": ">=3.12,<3.14",
-  "source_commit": "5cca11a9efad8e970a0eac0da576680cf10d9298",
+  "source_commit": "eb0b03170b8d4ffaa25bb227fadc4d413de3401d",
+  "source_repository": "https://github.com/Tarnished77/frl-v2",
   "third_party_raw_observations_included": false,
-  "title": "Funding Withdrawals, Market Losses, and Fire-Sale Amplification: An Agent-Based Stress Experiment"
+  "title": "Funding Withdrawals, Market Losses, and Fire-Sale Amplification: An Agent-Based Stress Experiment",
+  "zenodo_doi": "10.5281/zenodo.21406158",
+  "zenodo_url": "https://doi.org/10.5281/zenodo.21406158"
 }
