@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software or generated data, please cite this package."
+title: "Funding Withdrawals, Market Losses, and Fire-Sale Amplification: An Agent-Based Stress Experiment"
+type: software
+version: 3.1.0
+date-released: 2026-07-19
+license: MIT
+authors:
+  - family-names: Zhai
+    given-names: Shangyu
+  - family-names: Li
+    given-names: Xu
+  - family-names: Wang
+    given-names: Shuai
+  - family-names: Xie
+    given-names: Penghui
+  - family-names: Du
+    given-names: Yihao
+  - family-names: Mo
+    given-names: Yaqi
+  - family-names: Fu
+    given-names: Qianrong
+  - family-names: Chen
+    given-names: Huan
+keywords:
+  - agent-based finance
+  - funding liquidity
+  - fire sales
+  - stress testing
+  - reproducibility

@@ -1,0 +1,91 @@
+{
+  "anchor_version": "frl-v3-anchor-1.0",
+  "cash_share_of_gross_assets": {
+    "classification": "direct_data_anchor",
+    "high": 0.08,
+    "included_latest_values": [
+      0.020819999999999998,
+      0.07661,
+      0.06109
+    ],
+    "low": 0.02,
+    "observation_date": "2026-03-31",
+    "reference": 0.06
+  },
+  "financing_maturity": {
+    "classification": "direct_data_anchor",
+    "estimated_percent_within_30_days": 55.668674698795186,
+    "observation_date": "2026-03-31",
+    "percent_0_to_1_day": 38.7,
+    "percent_2_to_7_days": 8.6,
+    "percent_8_to_90_days": 30.2,
+    "percent_over_90_days": 22.5,
+    "use": "Documents rollover exposure only; not a withdrawal probability."
+  },
+  "funding_withdrawal_scenario": {
+    "classification": "official_scenario_anchor",
+    "fractions_of_initial_liabilities": [
+      0.05,
+      0.1,
+      0.2
+    ]
+  },
+  "generated_from_preserved_sources": true,
+  "leverage": {
+    "classification": "direct_data_anchor",
+    "excluded_strategy_reason": "Derivative-heavy gross exposures are not comparable to a single long risky asset.",
+    "high": 2.8,
+    "included_latest_values": [
+      2.263,
+      2.77,
+      1.634,
+      2.402,
+      1.607
+    ],
+    "low": 1.6,
+    "observation_date": "2026-03-31",
+    "reference": 2.3
+  },
+  "market_loss_21_trading_days": {
+    "classification": "direct_data_anchor",
+    "end_date": "2026-07-17",
+    "loss_max": 0.32966818964871547,
+    "loss_q90": 0.043141978319513385,
+    "loss_q95": 0.06342005464258038,
+    "loss_q975": 0.08557715844319347,
+    "loss_q99": 0.11313795889383627,
+    "observations": 2514,
+    "reference_loss": 0.06342005464258038,
+    "reference_quantile": "q95",
+    "start_date": "2016-07-18",
+    "window_trading_days": 21,
+    "windows": 2493
+  },
+  "normalized_parameters": {
+    "funding_multiplier_range": [
+      0.75,
+      1.25
+    ],
+    "funding_noise_sigma": 0.2,
+    "market_event_probabilities": [
+      0.05,
+      0.1,
+      0.2
+    ]
+  },
+  "pilot_stress_budgets": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "price_impact": {
+    "benchmark_lambda": 0.15,
+    "benchmark_loss_at_reference_sale": 0.014888060396937353,
+    "classification": "official_scenario_anchor",
+    "high_lambda": 0.3,
+    "high_loss_at_reference_sale": 0.029554466451491845,
+    "reference_sale_fraction": 0.1
+  }
+}

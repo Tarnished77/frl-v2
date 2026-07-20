@@ -1,0 +1,19 @@
+{
+  "blocks_analyzed": 200,
+  "decision_version": "1.0",
+  "extension_required": false,
+  "independent_monte_carlo_unit": "replication block",
+  "precision_by_outcome": {
+    "mean_equity_loss": {
+      "maximum_simultaneous_halfwidth": 0.006981576521238236,
+      "passes": true,
+      "tolerance": 0.01
+    },
+    "worst_10pct_mean_equity_loss": {
+      "maximum_simultaneous_halfwidth": 0.008791486603634907,
+      "passes": true,
+      "tolerance": 0.02
+    }
+  },
+  "rule": "Use the largest 95% family-wise max-t half-width in the funding-minus-market local-effect family across calibration ratios, feedback states, and both local transitions. If either primary outcome exceeds its preregistered tolerance, append locked blocks 201--400 to every primary condition."
+}

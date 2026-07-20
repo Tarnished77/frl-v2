@@ -1,0 +1,36 @@
+{
+  "analysis_version": "frl-v3-resilience-sensitivity-1.0",
+  "files": {
+    "sensitivity_cells.csv": "ea40167d32918237583ad51e4a03bb833471fe4dedce791970242cd113e25f8e",
+    "sensitivity_contrasts.csv": "5c98b152dff60312a6116d260aad83a26cada542db54767d4fdafb0251b5a08b"
+  },
+  "inputs": [
+    {
+      "actual_counts": {
+        "agent_rows": 270000,
+        "daily_rows": 81000,
+        "run_rows": 2700
+      },
+      "directory": "outputs/resilience-sensitivity-cash-v1",
+      "exit_events": 0,
+      "experiment_manifest_sha256": "df2bd1431ac6c099746c017a0c93f3f749f9536bd4b2f7b311941c8dcde17a41",
+      "run_summary_sha256": "ec0dffe8d3574fb6c8ae16a4316a73c959fd623ba3d286dcb9e6f0ae5895f09d"
+    }
+  ],
+  "locked_design_sha256": "72246d61ec868cd74d9e4601c9226c643c4b1e81c969304d991668526802ec98",
+  "manifest_version": "1.0",
+  "mechanism_validation": {
+    "maximum_equity_loss_decomposition_residual": 9.999813477268304e-13,
+    "maximum_exit_rate": 0.0,
+    "maximum_mean_unpaid_funding": 6.67868538251e-19
+  },
+  "sample_description": {
+    "agent_condition_trajectories": 270000,
+    "conditions": 27,
+    "independent_monte_carlo_unit": "replication block",
+    "institutions_per_condition_block": 100,
+    "replication_blocks": 100,
+    "scenario_cells": 27
+  },
+  "sensitivity": "cash_buffer"
+}

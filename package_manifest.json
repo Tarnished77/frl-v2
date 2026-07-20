@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-07-19T00:00:00Z",
+  "excluded_material": [
+    "main manuscript and Supplementary source or PDFs",
+    "cover letter, highlights, submission notes, and author contact details",
+    "editable PowerPoint paper artwork",
+    "development conversations, prompts, logs, local paths, secrets, and caches",
+    "third-party raw OFR and FRED snapshots",
+    "large agent-level and daily formal CSV files",
+    "legacy game-backed, v2, and invalid v3.0 evidence"
+  ],
+  "included_data_level": "block-level run summaries, seed and experiment manifests, derived contrasts, and publication assets",
+  "legacy_game_backed_evidence_included": false,
+  "licenses": {
+    "code": "MIT",
+    "generated_simulation_data_and_figures": "CC-BY-4.0",
+    "third_party_source_data": "not redistributed"
+  },
+  "manuscript_or_submission_material_included": false,
+  "model_version": "3.1.0",
+  "package_kind": "code-data-reproducibility-archive",
+  "package_version": "1.0",
+  "payload_bytes_before_integrity_records": 12925461,
+  "payload_files_before_integrity_records": 135,
+  "persistent_identifier": "not assigned; author-controlled deposit pending",
+  "personal_contact_information_included": false,
+  "primary_design": {
+    "conditions": 54,
+    "exit_events": 0,
+    "horizon_days": 30,
+    "institution_condition_trajectories": 1080000,
+    "institutions_per_block": 100,
+    "replication_blocks_per_condition": 200,
+    "run_rows": 10800
+  },
+  "python_requirement": ">=3.12,<3.14",
+  "source_commit": "5cca11a9efad8e970a0eac0da576680cf10d9298",
+  "third_party_raw_observations_included": false,
+  "title": "Funding Withdrawals, Market Losses, and Fire-Sale Amplification: An Agent-Based Stress Experiment"
+}

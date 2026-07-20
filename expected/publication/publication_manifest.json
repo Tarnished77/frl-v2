@@ -1,0 +1,48 @@
+{
+  "files": {
+    "data/primary_cells.csv": "6bfec427105fcc839417f269125fb03150167ca8ce6f7f4e74e7a984659d453d",
+    "data/primary_contrasts.csv": "8e571cf8c8226bd7c78a639cc6dfce8d5f6520080f7bf598b081efa44e4d1d9d",
+    "data/sensitivity_cash_buffer.csv": "91cca14a25f2c324bf242c089e6a6e55cbf686059cc61eb0acca62444fa81c53",
+    "data/sensitivity_high_impact.csv": "ccb4c6321e58be41573305d7c7274691d6ebc850c139a5e18c4f4137d343a0e1",
+    "data/sensitivity_market_frequency.csv": "45ee5e5891cbfda33c53d1415116bf5f90f5c62a44a1bda85d11776758de17a9",
+    "data/sensitivity_stress_budget.csv": "57f91ce5194c32c22805a83edb884f048e028b5f1ef9ae99d1f021fc94450269",
+    "figures/fig2_mechanism_results.pdf": "62e84dbd1cb1bda2b1ba01fbbc72e80ca174bc31140b856af293c3015e08836d",
+    "figures/fig2_mechanism_results.png": "f2e2f7f044841ffe5dbf9efde84e52305cca6c25e3ea7e67bde142c204782f2b",
+    "figures/fig3_equity_loss_grids.pdf": "a8eb96954648d3fed5e6b417a15b659fffbd60acbdfb5b72903ce5bb4785292d",
+    "figures/fig3_equity_loss_grids.png": "602fa6550dff5f2d77d192cb734973f8b1b9f94aac7158c0614cfd000c5a87b6",
+    "figures/figS1_sensitivity_forest.pdf": "dce5ace633a99b81673138746e2165d346c1051ee71c47606968d007e7e64eba",
+    "figures/figS1_sensitivity_forest.png": "d4fcfce0c30af224f8e1200576c28b96a0a4d6d55c427b733f9cc2ab8951f620",
+    "figures/figS2_channel_interactions.pdf": "83f75f1912155592acd32452912ba39cc5b1fdc40d0d894ca4b5e088b3398de7",
+    "figures/figS2_channel_interactions.png": "cc88f471d2d5708807ac70aeb3506e542f28eaf106eb50df607f75a4d3397d9e",
+    "figures/figS3_fire_sale_cells.pdf": "c6ed257e98ae0c17a60e6f70662cbe1694eaae85cb84fe83e7c0450d7fdaa455",
+    "figures/figS3_fire_sale_cells.png": "49a27b3ade47f58cb1f34a1d0b3bcf794f7601d4357aa7987ceef2f23d62bfb2",
+    "figures/figS4_finite_population.pdf": "fb5661d6a45c39884f94b288f0b9214fe3fb5e13367ea5d5b1bef5efa4c74ff4",
+    "figures/figS4_finite_population.png": "15d0bd30b01e0038f5ee41feb44c4d398b575bd86c9c1760977d6ccb2ebc6122",
+    "figures/figS5_calibration_audit.pdf": "cbf5de5b466680e2e5b20cd046ab84922cdbd70dde426a27d239c9df3a403c89",
+    "figures/figS5_calibration_audit.png": "ef9a951effe4f776679c91069b4bc77359addbb19c31dec65da1a195bd72a135",
+    "latex/results_macros.tex": "fc18bcefd7e2c6928b703828499a91b55328655227e667c898f5e8833987176e",
+    "latex/table_complete_cells.tex": "dc3df8617ad469e1fa7b8a55d5df59f38d1d408ee0495c3e13155db0e35dcd0f",
+    "latex/table_design.tex": "62f4c296b37eaa658adcebe4f85f6a4205ea1b54b6d313de89388e5e1600ab42",
+    "latex/table_mechanism.tex": "68aef2767199d048bc708c431d9eb436f976ab14c1323864ae6399f94a424a21",
+    "latex/table_sensitivities.tex": "3bec5a5a442466c3a32fc762fa5ff4f7d03fca7af655f9fa588ee332d5557b9a"
+  },
+  "generated_at": "2026-07-19T00:00:00+00:00",
+  "locked_design_sha256": "72246d61ec868cd74d9e4601c9226c643c4b1e81c969304d991668526802ec98",
+  "manifest_version": "1.0",
+  "primary_results_manifest_sha256": "177563089d250f9997c67142f5cbb264c3dc8986de9cb2211263bdf7fdd8875a",
+  "publication_version": "frl-v3-resilience-publication-1.0",
+  "scientific_checks": {
+    "all_primary_cells_reported": true,
+    "all_targeted_sensitivities_reported": true,
+    "equity_loss_decomposition_maximum_residual": 9.499952907665588e-13,
+    "formal_exit_events": 0,
+    "precision_extension_required": false
+  },
+  "sensitivity_results_manifest_sha256": {
+    "cash_buffer": "b00ad504e9a5f39279f39f93d4d7a8442827ee68d816840e38577dc29d22f8dc",
+    "high_impact": "89f28524d639e0bc183d2f9dd6f5a50120e94068d6f47b651b3d02c351d8e5be",
+    "market_frequency": "ced7b7370490ac996a634bca3c82c5e4edd8f110fbf53c40052037c6f9a97d05",
+    "stress_budget": "15530e5aa7fe72c1ccf984ab0be927439cc457bfcc55596c59ce7727e6a30346"
+  },
+  "title": "Funding Withdrawals, Market Losses, and Fire-Sale Amplification: An Agent-Based Stress Experiment"
+}

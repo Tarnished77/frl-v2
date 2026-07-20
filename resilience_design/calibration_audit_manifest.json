@@ -1,0 +1,75 @@
+{
+  "budgets": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "child_manifests": {
+    "0.1": {
+      "directory": "outputs/resilience-calibration-audit-v1/budget-0p10",
+      "experiment_manifest_sha256": "3f0990a9c885a84ca23a7861dafbc3c370b17282c167089f6b6086915d9f96c7",
+      "run_summary_sha256": "7269c4bc13da09bf8f1af2b2ca78afb84c4bbfd46c63a0db96f715360476fb3d"
+    },
+    "0.15": {
+      "directory": "outputs/resilience-calibration-audit-v1/budget-0p15",
+      "experiment_manifest_sha256": "0bde38db69c16519e6c7f8a1a35ede144825aaf13de38972d3a957299e0ade94",
+      "run_summary_sha256": "38faa2d2b4fd6359ae2d32ba46fba791326c5e0015fc08e57249733ec62f1f88"
+    },
+    "0.2": {
+      "directory": "outputs/resilience-calibration-audit-v1/budget-0p20",
+      "experiment_manifest_sha256": "60cbbef76414a6f40207fad5e54ea9a1d2c5e5737a281db008e5551dc39ef385",
+      "run_summary_sha256": "c37fbcf5848c53aa80e946f850d1a44634cc49d5ade33450780f368d8e92d12b"
+    },
+    "0.25": {
+      "directory": "outputs/resilience-calibration-audit-v1/budget-0p25",
+      "experiment_manifest_sha256": "5c2eba750b9d852443f0e8a41d69a111a154c6a0581b995c80f5f2cb29c58817",
+      "run_summary_sha256": "c9ac021c9e3e02d9e79ab3809855bd83dacbfeda7733c82522352a37389976de"
+    },
+    "0.3": {
+      "directory": "outputs/resilience-calibration-audit-v1/budget-0p30",
+      "experiment_manifest_sha256": "ee4487d83e0319488060345e783ab12c1c75031769f8b2a0d17a7bb85fddac7e",
+      "run_summary_sha256": "cc0cfe37a727e7bda0776bb8c15a36bcb0119edf2c40a50ed5d5e2a4114e4c90"
+    }
+  },
+  "design_version": "frl-v3-resilience-1.0",
+  "manifest_version": "1.0",
+  "namespace": "frl-v3-resilience-confirmatory-calibration-audit",
+  "passed": true,
+  "primary_stress_budget_locked_before_audit": 0.15,
+  "purpose": "Numerical and range audit only; no outcome is used to select the primary stress budget.",
+  "replication_ids": [
+    "audit-0001",
+    "audit-0002",
+    "audit-0003",
+    "audit-0004",
+    "audit-0005",
+    "audit-0006",
+    "audit-0007",
+    "audit-0008",
+    "audit-0009",
+    "audit-0010",
+    "audit-0011",
+    "audit-0012",
+    "audit-0013",
+    "audit-0014",
+    "audit-0015",
+    "audit-0016",
+    "audit-0017",
+    "audit-0018",
+    "audit-0019",
+    "audit-0020",
+    "audit-0021",
+    "audit-0022",
+    "audit-0023",
+    "audit-0024",
+    "audit-0025",
+    "audit-0026",
+    "audit-0027",
+    "audit-0028",
+    "audit-0029",
+    "audit-0030"
+  ],
+  "summary_sha256": "2864bceccab7f1e91fd2b5987e065a0bfb219c261af60f6d8aae77f92e2668bb"
+}

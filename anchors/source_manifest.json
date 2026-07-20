@@ -1,0 +1,87 @@
+{
+  "archive_policy": {
+    "raw_third_party_snapshots_included": false,
+    "reason": "Official third-party observations are excluded from redistribution. Their URLs, retrieval date, checksums, transformations, and locked derived anchor values are retained.",
+    "source_manifest_sha256": "50a0c048d21ad188396f4780e99a795cfe44e28748e0e12019f73c60b25cd3c6"
+  },
+  "classification_policy": {
+    "direct_data_anchor": "A value calculated from a preserved official data snapshot.",
+    "normalized_parameter": "A transparent model choice subjected to sensitivity analysis and not described as empirical calibration.",
+    "official_scenario_anchor": "A published official stress range used to bound a scenario, not an estimate of the simulated population."
+  },
+  "manifest_version": "1.0",
+  "retrieved_on": "2026-07-19",
+  "sources": [
+    {
+      "api_url": "https://data.financialresearch.gov/hf/v1/series/multifull",
+      "limitations": "Macro, multi-strategy, relative-value, and managed-futures gross leverage is excluded because derivative gross exposures are not comparable to the model's single long risky asset.",
+      "publisher": "Office of Financial Research",
+      "raw_snapshot_filename": "ofr_leverage_by_strategy.json",
+      "raw_snapshot_included": false,
+      "raw_snapshot_sha256": "ace2b89b89c7609aa3fdc6a932f297c070aa112dd80a9bbd43905b02e3ad99f9",
+      "sha256": "ace2b89b89c7609aa3fdc6a932f297c070aa112dd80a9bbd43905b02e3ad99f9",
+      "source_id": "ofr-form-pf-leverage",
+      "title": "Hedge Fund Monitor: leverage by strategy",
+      "url": "https://www.financialresearch.gov/hedge-fund-monitor/categories/leverage/chart-27/",
+      "use": "Direct data anchor for initial gross-assets-to-net-assets leverage."
+    },
+    {
+      "api_url": "https://data.financialresearch.gov/hf/v1/series/multifull",
+      "limitations": "Size-cohort aggregates bound a stylized cross-sectional range; they do not identify an individual-fund distribution.",
+      "publisher": "Office of Financial Research",
+      "raw_snapshot_filename": "ofr_cash_by_size.json",
+      "raw_snapshot_included": false,
+      "raw_snapshot_sha256": "a8d8a081a448f69132d031cd2003d201e6bb135f30e54c1a5443cd27019cf21e",
+      "sha256": "a8d8a081a448f69132d031cd2003d201e6bb135f30e54c1a5443cd27019cf21e",
+      "source_id": "ofr-form-pf-cash",
+      "title": "Hedge Fund Monitor: unencumbered cash ratio by size cohort",
+      "url": "https://www.financialresearch.gov/hedge-fund-monitor/categories/liquidity/chart-48/",
+      "use": "Direct data anchor for unencumbered cash as a share of gross assets."
+    },
+    {
+      "api_url": "https://data.financialresearch.gov/hf/v1/series/multifull",
+      "limitations": "Maturity shares are not withdrawal probabilities and are not used as such.",
+      "publisher": "Office of Financial Research",
+      "raw_snapshot_filename": "ofr_financing_maturity.json",
+      "raw_snapshot_included": false,
+      "raw_snapshot_sha256": "5e18184a58adb547544231760fa35ac3b13768806d471fec58e64499c3b88136",
+      "sha256": "5e18184a58adb547544231760fa35ac3b13768806d471fec58e64499c3b88136",
+      "source_id": "ofr-form-pf-financing",
+      "title": "Hedge Fund Monitor: financing liquidity by maturity",
+      "url": "https://www.financialresearch.gov/hedge-fund-monitor/categories/liquidity/chart-42/",
+      "use": "Direct data anchor for the presence of short-maturity financing exposure."
+    },
+    {
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500",
+      "limitations": "The broad equity index is a plausibility anchor for a normalized risky asset, not a fitted return process.",
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "raw_snapshot_filename": "fred_sp500.csv",
+      "raw_snapshot_included": false,
+      "raw_snapshot_sha256": "b724ac06a4b899c3cf0506240d611c8ba0877da3234bbc8d0044a44d41b682ef",
+      "sha256": "b724ac06a4b899c3cf0506240d611c8ba0877da3234bbc8d0044a44d41b682ef",
+      "source_id": "fred-sp500",
+      "title": "S&P 500 daily series",
+      "url": "https://fred.stlouisfed.org/series/SP500",
+      "use": "Direct data anchor for the range of 21-trading-day market losses."
+    },
+    {
+      "classification": "official_scenario_anchor",
+      "doi": "10.5089/9781484324783.001",
+      "limitations": "The scenarios concern fund outflows and only bound, rather than estimate, short-term funding withdrawal in the model.",
+      "publisher": "International Monetary Fund",
+      "source_id": "imf-fund-liquidity-2017",
+      "title": "Liquidity Stress Tests for Investment Funds: A Practical Guide",
+      "url": "https://www.imf.org/en/publications/wp/issues/2017/10/31/liquidity-stress-tests-for-investment-funds-a-practical-guide-45332",
+      "use": "Official scenario cross-check for severe but plausible 5, 10, and 20 percent outflow magnitudes."
+    },
+    {
+      "classification": "official_scenario_anchor",
+      "limitations": "The range is mapped to a declared 10 percent reference sale fraction; it is not estimated from the simulated market.",
+      "publisher": "International Monetary Fund",
+      "source_id": "imf-macroprudential-survey-2023",
+      "title": "Macroprudential Stress-Test Models: A Survey",
+      "url": "https://www.imf.org/en/Publications/WP/Issues/2023/08/18/Macroprudential-Stress-Test-Models-A-Survey-536265",
+      "use": "Official scenario anchor for 150 to 300 basis-point price impacts in less-liquid asset classes."
+    }
+  ]
+}

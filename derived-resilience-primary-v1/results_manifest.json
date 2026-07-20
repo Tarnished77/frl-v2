@@ -1,0 +1,75 @@
+{
+  "analysis_version": "frl-v3-resilience-primary-1.0",
+  "bootstrap": {
+    "method": "paired replication-block nonparametric bootstrap",
+    "pointwise_level": 0.95,
+    "replications": 2000,
+    "simultaneous_level": 0.95,
+    "simultaneous_method": "family-wise bootstrap max-t"
+  },
+  "files": {
+    "mechanism_validation.json": "68b08026e63bcc358202811d019d7cf86b2ad525113a389d43b31159cf4df355",
+    "precision_decision.json": "8c556904352ef75ed67288691050b9c04ee36b40f23632aadc4e8c809c7fad43",
+    "resilience_cells.csv": "6bfec427105fcc839417f269125fb03150167ca8ce6f7f4e74e7a984659d453d",
+    "resilience_contrasts.csv": "1738b7836750f2c2a97fd77a754ee7428f529c5252282a060178843e7266b9ae"
+  },
+  "inputs": [
+    {
+      "actual_counts": {
+        "agent_rows": 1080000,
+        "daily_rows": 324000,
+        "run_rows": 10800
+      },
+      "directory": "outputs/resilience-primary-v1",
+      "exit_events": 0,
+      "experiment_id": "frl-v3-resilience-primary",
+      "experiment_manifest_sha256": "be97699caaff07f22beda6cb652eee1ec63f7de73a9c7c327797fd4e6756447e",
+      "run_summary_sha256": "4df6d2c062eda08423a8b633dc3b160035203212c1753a42e256290f79664807"
+    }
+  ],
+  "locked_design_sha256": "72246d61ec868cd74d9e4601c9226c643c4b1e81c969304d991668526802ec98",
+  "manifest_version": "1.0",
+  "mechanism_validation": {
+    "maximum_equity_loss_decomposition_residual": 9.499952907665588e-13,
+    "maximum_exit_rate": 0.0,
+    "maximum_mean_unpaid_funding": 7.1991024253e-19
+  },
+  "precision_decision": {
+    "blocks_analyzed": 200,
+    "decision_version": "1.0",
+    "extension_required": false,
+    "independent_monte_carlo_unit": "replication block",
+    "precision_by_outcome": {
+      "mean_equity_loss": {
+        "maximum_simultaneous_halfwidth": 0.006981576521238236,
+        "passes": true,
+        "tolerance": 0.01
+      },
+      "worst_10pct_mean_equity_loss": {
+        "maximum_simultaneous_halfwidth": 0.008791486603634907,
+        "passes": true,
+        "tolerance": 0.02
+      }
+    },
+    "rule": "Use the largest 95% family-wise max-t half-width in the funding-minus-market local-effect family across calibration ratios, feedback states, and both local transitions. If either primary outcome exceeds its preregistered tolerance, append locked blocks 201--400 to every primary condition."
+  },
+  "primary_outcomes": [
+    "mean_equity_loss",
+    "worst_10pct_mean_equity_loss"
+  ],
+  "sample_description": {
+    "agent_condition_trajectories": 1080000,
+    "conditions": 54,
+    "independent_monte_carlo_unit": "replication block",
+    "institutions_per_condition_block": 100,
+    "replication_blocks": 200
+  },
+  "secondary_outcomes": [
+    "asset_price_loss",
+    "market_value_loss",
+    "fire_sale_value_loss",
+    "liability_reduction",
+    "forced_sale_proceeds",
+    "exit_risk"
+  ]
+}

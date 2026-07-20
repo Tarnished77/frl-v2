@@ -1,0 +1,106 @@
+{
+  "anchor_sha256": "7e7fb2f6dcc1a4f0c9a5177286e6fad6aa6754abfa6991be558a5a6447e52aef",
+  "design_config": {
+    "bootstrap_replications": 2000,
+    "calibration_audit_budgets": [
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "calibration_audit_replications": 30,
+    "calibration_ratios": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "cash_buffer_sensitivity": [
+      "low",
+      "high"
+    ],
+    "design_version": "frl-v3-resilience-1.0",
+    "experiment_namespace": "frl-v3-resilience-confirmatory",
+    "finite_size_mean_loss_tolerance": 0.01,
+    "finite_size_populations": [
+      50,
+      100,
+      200
+    ],
+    "finite_size_replications": 50,
+    "finite_size_tail_loss_tolerance": 0.02,
+    "funding_intensities": [
+      0,
+      1,
+      2
+    ],
+    "market_frequency_sensitivity": [
+      0.05,
+      0.2
+    ],
+    "market_intensities": [
+      0,
+      1,
+      2
+    ],
+    "maximum_primary_replications": 400,
+    "monte_carlo_mean_loss_halfwidth_tolerance": 0.01,
+    "monte_carlo_tail_loss_halfwidth_tolerance": 0.02,
+    "primary_feedback_lambdas": [
+      0.0,
+      0.15
+    ],
+    "primary_replications": 200,
+    "primary_stress_budget": 0.15,
+    "sensitivity_replications": 100,
+    "stress_budget_sensitivity": [
+      0.1,
+      0.3
+    ]
+  },
+  "files": {
+    "calibration_audit_summary.csv": "2864bceccab7f1e91fd2b5987e065a0bfb219c261af60f6d8aae77f92e2668bb",
+    "finite_100_experiment_manifest.json": "a8bbc2645378d32f7fcd98c010300eb55db0213d341d1e2470cdbe712278138d",
+    "finite_200_experiment_manifest.json": "65abcfbbc47ac644d432ed27b378f9e20b164fef17e447b7eb00980fed62c5a6",
+    "finite_50_experiment_manifest.json": "da5eb80829e5393a1aad27c6badd2db7070ddb73e584e64613a1cac38acd2bdb",
+    "formal_seed_manifest.json": "848bda813f2b7dae68cb1eb9dc03cd1477a5d87e0fa24f151a464bb6d1bd0d51"
+  },
+  "finite_size_diagnostic": {
+    "max_mean_equity_loss_difference_n100_vs_n200": 0.00045428528601801355,
+    "max_tail_equity_loss_difference_n100_vs_n200": 0.0002766361049075794,
+    "mean_loss_tolerance": 0.01,
+    "tail_loss_tolerance": 0.02
+  },
+  "lock_version": "1.0",
+  "model_config_sha256": "ab619cccbc972b548eac63bcd81a3f8858e87bc54ccf3b666094e7d647f9a281",
+  "namespace_groups": {
+    "primary_extension": {
+      "namespace": "frl-v3-resilience-confirmatory-primary",
+      "replications": 200
+    },
+    "primary_initial": {
+      "namespace": "frl-v3-resilience-confirmatory-primary",
+      "replications": 200
+    },
+    "sensitivity_budget": {
+      "namespace": "frl-v3-resilience-confirmatory-sensitivity-budget",
+      "replications": 100
+    },
+    "sensitivity_cash": {
+      "namespace": "frl-v3-resilience-confirmatory-sensitivity-cash",
+      "replications": 100
+    },
+    "sensitivity_frequency": {
+      "namespace": "frl-v3-resilience-confirmatory-sensitivity-frequency",
+      "replications": 100
+    },
+    "sensitivity_high_impact": {
+      "namespace": "frl-v3-resilience-confirmatory-sensitivity-high-impact",
+      "replications": 100
+    }
+  },
+  "primary_stress_budget": 0.15,
+  "selected_population": 100,
+  "source_commit": "a01595b",
+  "status": "locked before continuous confirmatory outcomes"
+}

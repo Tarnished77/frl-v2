@@ -1,0 +1,22 @@
+{
+  "model_version": "frl-v3.1",
+  "anchor_version": "frl-v3-anchor-1.0",
+  "horizon": 30,
+  "population": 100,
+  "random_stream_population": 200,
+  "initial_equity": 1.0,
+  "reference_leverage": 2.3,
+  "leverage_low": 1.6,
+  "leverage_high": 2.8,
+  "reference_cash_share": 0.06,
+  "cash_share_low": 0.02,
+  "cash_share_high": 0.08,
+  "funding_multiplier_low": 0.75,
+  "funding_multiplier_high": 1.25,
+  "funding_noise_sigma": 0.20,
+  "market_event_probability": 0.10,
+  "benchmark_price_impact_lambda": 0.15,
+  "high_price_impact_lambda": 0.30,
+  "maximum_market_loss_fraction": 0.60,
+  "exit_tolerance": 1e-10
+}

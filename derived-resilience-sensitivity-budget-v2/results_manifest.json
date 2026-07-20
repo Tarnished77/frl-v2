@@ -1,0 +1,58 @@
+{
+  "analysis_version": "frl-v3-resilience-sensitivity-1.0",
+  "files": {
+    "sensitivity_cells.csv": "46debb799d4f9ebecc06004c8fc3cdeffe1c1f09121e165af8ac43d517fbd66e",
+    "sensitivity_contrasts.csv": "b6ece3751b67ab376c3d74a2b19a27dc122393ef0b0150daf841ba967c6b5b22"
+  },
+  "inputs": [
+    {
+      "actual_counts": {
+        "agent_rows": 90000,
+        "daily_rows": 27000,
+        "run_rows": 900
+      },
+      "directory": "outputs/resilience-sensitivity-budget-v2/budget-0p10",
+      "exit_events": 0,
+      "experiment_manifest_sha256": "ddb61d475d88a8ccd75ad1fe508698b5e74d1c63eb5af0a9c699caf74d0bd8f1",
+      "run_summary_sha256": "2002e3c163e9d7e8fd692a9029839a3ef16b133e2ae882f9c263043365ccd731"
+    },
+    {
+      "actual_counts": {
+        "agent_rows": 90000,
+        "daily_rows": 27000,
+        "run_rows": 900
+      },
+      "directory": "outputs/resilience-sensitivity-budget-v2/budget-0p15",
+      "exit_events": 0,
+      "experiment_manifest_sha256": "78528411ba411efcd13e951332c288e6916e8b5e4358df9d612d00d2b6cb9461",
+      "run_summary_sha256": "669b945cfe2f219c34e7d3fed1744026dac312701ab422aaa61e03167d8aa643"
+    },
+    {
+      "actual_counts": {
+        "agent_rows": 90000,
+        "daily_rows": 27000,
+        "run_rows": 900
+      },
+      "directory": "outputs/resilience-sensitivity-budget-v2/budget-0p30",
+      "exit_events": 0,
+      "experiment_manifest_sha256": "b162429d3d77613184098fbd90d97ccbf6b7a423d197deb4facbc2fc7db3d9f2",
+      "run_summary_sha256": "94ff461f14177fd440c7a307e13d3d96ff29df1ef4fb5248ea3cecf808d2bb87"
+    }
+  ],
+  "locked_design_sha256": "72246d61ec868cd74d9e4601c9226c643c4b1e81c969304d991668526802ec98",
+  "manifest_version": "1.0",
+  "mechanism_validation": {
+    "maximum_equity_loss_decomposition_residual": 9.619830837947693e-13,
+    "maximum_exit_rate": 0.0,
+    "maximum_mean_unpaid_funding": 1.77809156288e-18
+  },
+  "sample_description": {
+    "agent_condition_trajectories": 270000,
+    "conditions": 9,
+    "independent_monte_carlo_unit": "replication block",
+    "institutions_per_condition_block": 100,
+    "replication_blocks": 100,
+    "scenario_cells": 27
+  },
+  "sensitivity": "stress_budget"
+}
