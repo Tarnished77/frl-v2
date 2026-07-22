@@ -127,8 +127,8 @@ redistributed and remain subject to their source providers' terms.
 
 ## Repository and citation
 
-- Source repository: <https://github.com/Tarnished77/frl-v2>
-- Reserved archival DOI: <https://doi.org/10.5281/zenodo.21406158>
+- Public source repository: <https://github.com/Tarnished77/frl-v2>
+- Archived release (version 1.0.1): <https://doi.org/10.5281/zenodo.21491979>
+- All-version DOI: <https://doi.org/10.5281/zenodo.21406157>
 
-The DOI is reserved for version 1.0.0 while the Zenodo record remains a Draft.
 The included `CITATION.cff` provides machine-readable citation metadata.

@@ -19,10 +19,10 @@
   "manuscript_or_submission_material_included": false,
   "model_version": "3.1.0",
   "package_kind": "code-data-reproducibility-archive",
-  "package_version": "1.0.0",
+  "package_version": "1.0.1",
   "payload_bytes_before_integrity_records": 12925784,
   "payload_files_before_integrity_records": 135,
-  "persistent_identifier": "10.5281/zenodo.21406158",
+  "persistent_identifier": "10.5281/zenodo.21491979",
   "personal_contact_information_included": false,
   "primary_design": {
     "conditions": 54,
@@ -34,10 +34,12 @@
     "run_rows": 10800
   },
   "python_requirement": ">=3.12,<3.14",
-  "source_commit": "4d75df037b107cecb3ce809c57399769f6034948",
+  "source_commit": "9ee0710731ba9de2c72f9768970fbd0f8f2479bc",
   "source_repository": "https://github.com/Tarnished77/frl-v2",
   "third_party_raw_observations_included": false,
   "title": "Funding Withdrawals, Market Losses, and Fire-Sale Amplification: An Agent-Based Stress Experiment",
-  "zenodo_doi": "10.5281/zenodo.21406158",
-  "zenodo_url": "https://doi.org/10.5281/zenodo.21406158"
+  "zenodo_concept_doi": "10.5281/zenodo.21406157",
+  "zenodo_concept_url": "https://doi.org/10.5281/zenodo.21406157",
+  "zenodo_doi": "10.5281/zenodo.21491979",
+  "zenodo_url": "https://doi.org/10.5281/zenodo.21491979"
 }
