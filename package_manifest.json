@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-07-20T00:00:00Z",
+  "created_utc": "2026-07-22T00:00:00Z",
   "excluded_material": [
     "main manuscript and Supplementary source or PDFs",
     "cover letter, highlights, submission notes, and author contact details",
@@ -20,7 +20,7 @@
   "model_version": "3.1.0",
   "package_kind": "code-data-reproducibility-archive",
   "package_version": "1.0.0",
-  "payload_bytes_before_integrity_records": 12925715,
+  "payload_bytes_before_integrity_records": 12925784,
   "payload_files_before_integrity_records": 135,
   "persistent_identifier": "10.5281/zenodo.21406158",
   "personal_contact_information_included": false,
@@ -34,7 +34,7 @@
     "run_rows": 10800
   },
   "python_requirement": ">=3.12,<3.14",
-  "source_commit": "eb0b03170b8d4ffaa25bb227fadc4d413de3401d",
+  "source_commit": "4d75df037b107cecb3ce809c57399769f6034948",
   "source_repository": "https://github.com/Tarnished77/frl-v2",
   "third_party_raw_observations_included": false,
   "title": "Funding Withdrawals, Market Losses, and Fire-Sale Amplification: An Agent-Based Stress Experiment",

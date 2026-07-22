@@ -3,7 +3,7 @@ message: "If you use this software or generated data, please cite this package."
 title: "Funding Withdrawals, Market Losses, and Fire-Sale Amplification: An Agent-Based Stress Experiment"
 type: software
 version: 1.0.0
-date-released: 2026-07-20
+date-released: 2026-07-22
 license: MIT
 doi: 10.5281/zenodo.21406158
 repository-code: "https://github.com/Tarnished77/frl-v2"
@@ -13,6 +13,8 @@ authors:
     given-names: Shangyu
   - family-names: Li
     given-names: Xu
+  - family-names: Yuan
+    given-names: Yifan
   - family-names: Wang
     given-names: Shuai
   - family-names: Xie
